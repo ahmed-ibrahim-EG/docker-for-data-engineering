@@ -39,17 +39,17 @@ Each module in the curriculum contains a dedicated practical lab directory featu
 docker-for-data-engineering/
 ├── 📄 README.md                           # Master Syllabus & Progress Tracker (Root)
 │
-├── 📁 01-basic-docker-commands/           # Lab 01: Container Lifecycle & CLI Mechanics
-├── 📁 02-docker-run-features/             # Lab 02: Ports, Background Daemons & Resource Constraints
-├── 📁 03-docker-images/                   # Lab 03: Dockerfile Layering, Caching & Tagging
-├── 📁 04-environment-variables/           # Lab 04: Dynamic Runtime Config & Secrets
-├── 📁 05-commands-vs-entrypoint/          # Lab 05: Startup Mechanics: Static vs Dynamic Arguments
-├── 📁 06-docker-compose/                  # Lab 06: Multi-Container Orchestration (Voting App)
-├── 📁 07-docker-storage/                  # Lab 07: Volumes, Bind Mounts & Persistence
-├── 📁 08-docker-networking/               # Lab 08: Bridge Networks & Internal DNS Discovery
-├── 📁 09-docker-registry/                 # Lab 09: Image Tagging, Registries & Docker Hub
-├── 📁 10-container-orchestration/         # Lab 10: Docker Swarm & Kubernetes Fundamentals
-└── 📁 11-yaml-configuration/              # Lab 11: YAML Specifications for Infrastructure as Code
+├── 📁 01-basic-docker-commands/            # Lab 01: Container Lifecycle & CLI Mechanics
+├── 📁 02-docker-run-features/              # Lab 02: Ports, Background Daemons & Resource Constraints
+├── 📁 03-docker-images/                     # Lab 03: Dockerfile Layering, Caching & Tagging
+├── 📁 04-environment-variables/             # Lab 04: Dynamic Runtime Config & Secrets
+├── 📁 05-commands-vs-entrypoint/            # Lab 05: Startup Mechanics: Static vs Dynamic Arguments
+├── 📁 06-docker-compose/                    # Lab 06: Multi-Container Orchestration (Voting App)
+├── 📁 07-docker-storage/                    # Lab 07: Volumes, Bind Mounts & Persistence
+├── 📁 08-docker-networking/                 # Lab 08: Bridge Networks & Internal DNS Discovery
+├── 📁 09-docker-registry/                   # Lab 09: Image Tagging, Registries & Docker Hub
+├── 📁 10-container-orchestration/           # Lab 10: Docker Swarm & Kubernetes Fundamentals
+└── 📁 11-yaml-configuration/                # Lab 11: YAML Specifications for Infrastructure as Code
 ```
 
 ---
@@ -61,7 +61,7 @@ docker-for-data-engineering/
 | # | Module / Topic | Core Hands-on Focus | Status | Lab Directory |
 | :-: | :--- | :--- | :-: | :-: |
 | **01** | **Basic Docker Commands** | Lifecycle management (`run`, `ps`, `exec`, `stop`, `rm`, `rmi`), process isolation & exit code verification (`0` vs `137`). | ![Completed](https://img.shields.io/badge/Status-Completed-success?style=flat-square) | [📂 Open Lab 01](./01-container-lifecycle/README.md) |
-| **02** | **Advanced Docker Run** | Terminal allocation (`-it`), port mapping (`-p host:container`), resource quotas (CPU/RAM), and background daemons (`-d`). | ![In Progress](https://img.shields.io/badge/Status-Next%20Up-blue?style=flat-square) | `📁 02-docker-run-features/` |
+| **02** | **Advanced Docker Run** | Terminal allocation (`-it`), port mapping (`-p host:container`), resource quotas (CPU/RAM), and background daemons (`-d`). | ![In Progress](https://img.shields.io/badge/Status-In%20Progress-blue?style=flat-square) | [📂 Open Lab 02](./02-docker-run-features/02-docker-run-features.md) |
 | **03** | **Docker Images** | Writing production `Dockerfile`s, caching layers, multi-stage builds, and minimizing attack surfaces. | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) | `📁 03-docker-images/` |
 | **04** | **Environment Variables** | Runtime credential injection, config decoupling, `--env-file`, and secret isolation. | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) | `📁 04-environment-variables/` |
 | **05** | **Commands vs Entrypoint** | Container entry mechanics: deterministic entry (`ENTRYPOINT`) vs flexible default arguments (`CMD`). | ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey?style=flat-square) | `📁 05-commands-vs-entrypoint/` |
